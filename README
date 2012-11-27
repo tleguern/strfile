@@ -1,4 +1,20 @@
 strfile
 =======
 
-Create a random access file for storing fortune strings.
+Description
+-----------
+
+strfile creates a random access file for storing fortune strings.
+
+It is mostly used to genereate the *.dat files used by `fortune`.
+
+Supported Systems
+-----------------
+
+   * OpenBSD
+
+License
+-------
+
+strfile was imported from OpenBSD CVS. It is available under the 3-clauses BSD
+licenses.
