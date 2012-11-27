@@ -427,7 +427,7 @@ randomize(void)
 	int32_t	tmp;
 	int32_t	*sp;
 
-	srandomdev();
+	srandom(time(NULL));
 
 	Tbl.str_flags |= STR_RANDOM;
 	cnt = Tbl.str_numstr;
